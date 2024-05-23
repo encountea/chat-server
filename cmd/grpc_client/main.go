@@ -32,5 +32,5 @@ func main() {
 		log.Fatalf("Failed to get by id: %v", err)
 	}
 
-	log.Printf(color.RedString("User names:\n"), color.GreenString("%+v", r.GetId()))
+	log.Printf(color.RedString("User names:\n"), color.GreenString("%v", r.GetId()))
 }
